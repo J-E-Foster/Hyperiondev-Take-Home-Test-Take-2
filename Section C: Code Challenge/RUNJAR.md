@@ -1,8 +1,9 @@
 # How to run the JAR file via CMD
 
-### Note: make sure you have JAVA or a JRE installed before attempting these steps.
+### Note: make sure you have JAVA or a JRE installed before attempting these steps.<br /><br />
 
-* Onve you have located the JAR file in the extraced repo folder, open a command terminal. Here Windows Command Prompt is used, but the commands will work the same for Linux or MacOS.
+* Onve you have located the JAR file in the extraced repo folder, open a command terminal. 
+* Here Windows Command Prompt is used, but the commands will work the same for Linux or MacOS:
 
 ![](Jar-run-images/1.jpg)
 
