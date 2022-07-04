@@ -6,8 +6,8 @@
 
 * The solution was implemented using Java.
 * A test class was included for the main algorithm method.
-* For an in-depth explanation of the code, see the [source code](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test/blob/master/Section%20C:%20Code%20Challenge/src/numberSayer/NumberSayer.java).
-* For references, please see the [source code](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test/blob/master/Section%20C:%20Code%20Challenge/src/numberSayer/NumberSayer.java).
+* For an in-depth explanation of the code, see the [source code](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test-Take-2/tree/main/Section%20C:%20Code%20Challenge/SayTheNumber/src/numbersayer).
+* For references, please see the [source code](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test-Take-2/tree/main/Section%20C:%20Code%20Challenge/SayTheNumber/src/numbersayer).
 * For a Markdown report specifying and justifying the worst-case space complexity, see [this file](REPORT.md).
 * For the original problem, visit [this page](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ).<br /><br />
 
