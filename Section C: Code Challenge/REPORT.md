@@ -148,7 +148,7 @@ Geeksforgeeks.com, 2021).
 
 To test this, the <code>recursionDepth</code> attribute was used to add markers to the code. Worst-case recursion depth for each possible input length appeared when all digits were non-zero - with a maximum worst case of depth six for input length 15, but would continue to grow if longer numbers were included in the method's range. The following graph illustrates the data:
 
-![](.jpg)
+![](sayNumber()_Recursion_Depth_Graph.jpg)
 
 As can be seen, although the worst-case depth remained constant for the intervals created by grouping numbers and recurring according to size, the overall relationship between number length (expressed here as log10  of the number) and maximum recursion depth creates a clear linear relationship when viewed **across** intervals, from
 length log10 3 onwards: For each 1000x increase in the input number, the potential worst-case recursive depth increases by one. **Thus, as the input size grows, the potential maximum recursion depth grows along with it at a constant rate.**
