@@ -24,7 +24,7 @@
 
 * You'll need **Java** and an **IDE**
 * If you don't have Java, go [**here**](RUNME.md#how-to-install-java).
-* If you don't have an IDE - I strongly reccommend Eclipe as this project has JUnit dependencies. Please Go [**here**](RUNME.md#how-to-install-eclipse).
+* If you don't have an IDE - I strongly reccommend Eclipe as this project has JUnit dependencies. Please go [**here**](RUNME.md#how-to-install-eclipse).
 * If you already have Java and Eclipse, navigate to this repositories main directory, and download the whole   repository: 
 * Click **Code** and then **Download ZIP**:
 
@@ -32,7 +32,7 @@
 	
 * Unzip the folder in your preferred location.
 * Navigate to the **'Section C: Code Challenge'** folder, and find the **'NumberSayer'** folder.
-* Then follow [**these**](RUNME.md#how-to-run-the-program-in-eclipse) steps.<br /><br />
+* Then follow [**these steps**](RUNME.md#how-to-run-the-program-in-eclipse).<br /><br />
 
 ### To merely run the main method of this program without having to install Eclipse:
 
