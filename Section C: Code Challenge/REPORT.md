@@ -148,17 +148,17 @@ Geeksforgeeks.com, 2021).
 
 To test this, the <code>recursionDepth</code> attribute was used to add markers to the code. Worst-case recursion depth for each possible input length appeared when all digits were non-zero - with a maximum worst case of depth six for input length 15, but would continue to grow if longer numbers were included in the method's range. The following graph illustrates the data:
 
-![](sayNumber()_Recursion_Depth_Graph.jpg)
+![](Report-images/sayNumber()_Recursion_Depth_Graph.jpg)
 
 As can be seen, although the worst-case depth remained constant for the intervals created by grouping numbers and recurring according to size, the overall relationship between number length (expressed here as log10  of the number) and maximum recursion depth creates a clear linear relationship when viewed **across** intervals, from
 length log10 3 onwards: For each 1000x increase in the input number, the potential worst-case recursive depth increases by one. **Thus, as the input size grows, the potential maximum recursion depth grows along with it at a constant rate.**
 
-So while <code>sayNumber</code> method itself might have a space complexity of O(1),  the maximum recursion depth **grows with the input size** n, and we thus have a space complexity of O(1*n), which of course is just O(n).
+So while <code>sayNumber</code> method itself might have a space complexity of O(1),  the maximum recursion depth **grows with the input size** n, and we thus have a space complexity of O(1*n), which of course is just O(n).<br /><br />
 
 
 ### Conclusion
 
-**All evidence points toward a worst-case space complexity of O(n) for this algorithm.**
+**All evidence points toward a worst-case space complexity of O(n) for this algorithm.**<br /><br />
 
 
 
@@ -167,12 +167,12 @@ So while <code>sayNumber</code> method itself might have a space complexity of O
 
 ### References:
 
-[1] Baeldung.com (2021). Understanding Space Complexity. [online] Available at: https://www.baeldung.com/cs/space-complexity [Accessed 23 Jun 2022].
-[2] CS Dojo (2018). Introduction to Big O Notation and Time Complexity (Data Structures & Algorithms #7). [video] Youtube.com. Available at: https://www.youtube.com/watch?v=D6xkbGLQesk&ab_channel=CSDojo [Accessed 23 Jun 2022].
-[3] Edabit.com (2021). Say the Number! [online] Available at: https://edabit.com/challenge/4E9gTrRWErpTCA2FQ [Accessed 02 July 2022]. 
-[4] EJK (2013). Can you change a String object after you create it? [online] Stackoverflow.com. Available at: https://stackoverflow.com/questions/14411399/can-you-change-a-string-object-after-you-create-it [Accessed 03 July].
-[5] Foster, J.E. (2022). Space Complexity of the "number-to-words" algorithm. [online] Github.com. Available at: https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test/blob/master/Section%20C:%20Code%20Challenge/REPORT.md [Accessed 03 July 2022].
-[6] Geeksforgeeks.com (2021). What does ‘Space Complexity’ mean? [online] Available at: https://www.geeksforgeeks.org/g-fact-86/#:~:text=Auxiliary%20Space%20is%20the%20extra,and%20space%20used%20by%20input. [Accessed 23 Jun 2022].
+[1] Baeldung.com (2021). Understanding Space Complexity. [online] Available at: https://www.baeldung.com/cs/space-complexity [Accessed 23 Jun 2022].<br />
+[2] CS Dojo (2018). Introduction to Big O Notation and Time Complexity (Data Structures & Algorithms #7). [video] Youtube.com. Available at: https://www.youtube.com/watch?v=D6xkbGLQesk&ab_channel=CSDojo [Accessed 23 Jun 2022].<br />
+[3] Edabit.com (2021). Say the Number! [online] Available at: https://edabit.com/challenge/4E9gTrRWErpTCA2FQ [Accessed 02 July 2022].<br /> 
+[4] EJK (2013). Can you change a String object after you create it? [online] Stackoverflow.com. Available at: https://stackoverflow.com/questions/14411399/can-you-change-a-string-object-after-you-create-it [Accessed 03 July].<br />
+[5] Foster, J.E. (2022). Space Complexity of the "number-to-words" algorithm. [online] Github.com. Available at: https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test/blob/master/Section%20C:%20Code%20Challenge/REPORT.md [Accessed 03 July 2022].<br />
+[6] Geeksforgeeks.com (2021). What does ‘Space Complexity’ mean? [online] Available at: https://www.geeksforgeeks.org/g-fact-86/#:~:text=Auxiliary%20Space%20is%20the%20extra,and%20space%20used%20by%20input. [Accessed 23 Jun 2022].<br />
 [7] Hyperiondev (2021). Introduction to Computer Science Fundamentals and Big O Notation. p.6-14.
-[8] More, N. (2022). Algorithm/Insights. [online] Ideserve.co.in. Available at: https://www.ideserve.co.in/learn/time-and-space-complexity-of-recursive-algorithms#:~:text=To%20conclude%2C%20space%20complexity%20of,would%20be%20O(nm). [Accessed 04 July].
+[8] More, N. (2022). Algorithm/Insights. [online] Ideserve.co.in. Available at: https://www.ideserve.co.in/learn/time-and-space-complexity-of-recursive-algorithms#:~:text=To%20conclude%2C%20space%20complexity%20of,would%20be%20O(nm). [Accessed 04 July].<br />
 [9] Sauer, J. (2010). declaring/initializing primitives equal to creating new objects. [online] Stackoverflow.com. Available at: https://stackoverflow.com/questions/2875131/declaring-initializing-primitives-equal-to-creating-new-objects#:~:text=No%2C%20assigning%20primitive%20values%20does%20not%20create%20any%20objects.&text=A%20variable%20is%20%22declared%22%20when,assigned%20a%20value%20during%20declaration. [Accessed 03 July 2022].
