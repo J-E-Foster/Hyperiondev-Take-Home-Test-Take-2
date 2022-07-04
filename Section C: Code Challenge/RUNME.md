@@ -77,13 +77,13 @@ To run Java, you need an [**IDE**], we reccommend **Eclipse**.
 
 ![](Eclipse-install-images/9.jpg)
 
-* Eclipse Welcome screen should be displayed:
+* Eclipse Welcome Screen should be displayed:
 
 ![](Eclipse-install-images/10.jpg)
 
 ## How to run the program in Eclipse
 
-* Select **"File > Open Projects from File System"**:
+* Close the Welcome Screen and select **"File > Open Projects from File System"**:
 
 ![](Eclipse-install-images/11.jpg)
 
@@ -91,7 +91,7 @@ To run Java, you need an [**IDE**], we reccommend **Eclipse**.
 
 ![](Eclipse-install-images/12.jpg)
 
-* Click finish*:
+* Click **Finish**:
 
 ![](Eclipse-install-images/13.jpg)
 
