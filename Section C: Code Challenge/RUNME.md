@@ -83,58 +83,43 @@ To run Java, you need an [**IDE**], we reccommend **Eclipse**.
 
 ## How to run the program in Eclipse
 
-* Select **"File > New>Java Project"**:
+* Select **"File > Open Projects from File System"**:
 
 ![](Eclipse-install-images/11.jpg)
 
-* Enter the new project name:
+* Click **Directory** and choose the folder **SayTheNumber** in the **Section C** folder inside the unzipped repo:
 
 ![](Eclipse-install-images/12.jpg)
 
-* If you are asked to enter **New module-info**, select **Don't Create**:
+* Click finish*:
+
+![](Eclipse-install-images/13.jpg)
+
+* The **SayTheNumber** project folder should now appear in the **Package Explorer** view toward the left (if you don't see the **Package Explorer** view, select the small **"J"** icon to the right and close **welcome** tab).
+* You should also see some red warning icons.
+* To get rid of them, you need to add the JUnit5 library to the build path.
+* This can be done easily by right-clicking on the folder, selecting **Build Path**, then **Add Libraries**:
 
 ![](Eclipse-install-images/14.jpg)
 
-* If you are asked to **Open Associated Perspective?** just click "No":
+* On the dialogue window, select **JUnit** and click **Next**:
 
 ![](Eclipse-install-images/15.jpg)
 
-* If you don't see the **Package Explorer** view, select the small **"J"** icon to the right and close **welcome** tab.
-* You should see the created folder in the **Package Explorer**.
-* Next, expand your new folder, and right-click on the **src** folder.
-* Then right-click on **New** and select **Package**:
+* Finally, click **Finish**:
 
 ![](Eclipse-install-images/16.jpg)
-
-* Name the package **numberSayer** - THIS IS VERY IMPORTANT:
+	
+* You can now run or edit the program.
+* Double click on the **numbersayer** package, then double click on **Main.java**.
+* The main file shoul now open in the editor window.
+* Click the small green **Run** button in the toolbar, and the program should start:
 
 ![](Eclipse-install-images/17.jpg)
 
-* Now, go to where you saved the repo contents, navigate to the **numberSayer** folder, and copy all three **.java** files:
+* You can now also run the test classes and test suite by clicking on the **numbersayer.tests** package, 
+* by similarly selecting a class and clicking **Run**:
 
-![](Eclipse-install-images/18.jpg)
-	
-* Paste them directly into the **numberSayer** package you created earlier. 
-* You should see red warning icons.
-* Open the **NumberSayerTest.java** class.
-* Then hover your mouse over the red line at **org.junit**:
+![](Eclipse-install-images/18.jpg)<br /><br />
 
-![](Eclipse-install-images/19.jpg)
-
-* You should see a popup **The import org.junit cannot be resolved**.
-* Click **Fix project setup**:
-
-![](Eclipse-install-images/20.jpg)
-
-* Next add **Junit 5** to your project's build path:
-
-![](Eclipse-install-images/21.jpg)
-
-* You should now see that the red warning icons have disappeared.
-* You can now run the code by opening the **Main.java** class and selecting the green play icon **Run**:
-
-![](Eclipse-install-images/22.jpg)
-
-* You can also run the test file by going back to the **NumberSayerTest.java** tab and selecting **Run**.
-
-And that's it! You're all set up!
+### [Back to Section C](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test-Take-2/tree/main/Section%20C:%20Code%20Challenge)
