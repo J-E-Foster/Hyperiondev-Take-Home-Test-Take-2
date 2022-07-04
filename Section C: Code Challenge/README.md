@@ -18,7 +18,7 @@
 * The algorithm now makes use of a recursive instance method.
 * More tests classes were added, including a suite class and a runner class.
 * The space complexity report was adapted to include an analysis of the method's recursion depth.
-* An attempt was made to create a "standalone" app using a JAR file, albeit with limited success due to a class/module configuration issue with JUnit5, similiar to the one described [**here**].<br /><br />
+* An attempt was made to create a "standalone" app using a JAR file, albeit with limited success due to a class/module configuration issue with JUnit5, similiar to the one described [**here**](https://github.com/junit-team/junit5/issues/2147).<br /><br />
 
 ### To run and edit this program, and run test cases:
 
