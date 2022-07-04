@@ -11,7 +11,7 @@
 * For a Markdown report specifying and justifying the worst-case space complexity, see [this file](REPORT.md).
 * For the original problem, visit [this page](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ).<br /><br />
 
-### Note: this is my second attempt at solving this problem. The first attempt merely adapted the three-digit-group algorithm proposed by Richard Carr, which can be found [**here**](http://www.blackwasp.co.uk/NumberToWords.aspx).
+#### Note: this is my second attempt at solving this problem. The first attempt merely adapted the three-digit-group algorithm proposed by Richard Carr, which can be found [**here**](http://www.blackwasp.co.uk/NumberToWords.aspx).
 
 ### Changes from the first solution:
 
