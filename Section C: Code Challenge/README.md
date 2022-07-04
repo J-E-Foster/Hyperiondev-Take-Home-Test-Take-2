@@ -26,7 +26,7 @@
 * If you don't have Java, go [**here**](RUNME.md#how-to-install-java).
 * If you don't have an IDE - I strongly reccommend Eclipe as this project has JUnit dependencies. Please Go [**here**](RUNME.md#how-to-install-eclipse).
 * If you already have Java and Eclipse, navigate to this repositories main directory, and download the whole   repository: 
-  * Click **Code** and then **Download ZIP**:
+* Click **Code** and then **Download ZIP**:
 
 ![](Github-images/0.jpg).
 	
