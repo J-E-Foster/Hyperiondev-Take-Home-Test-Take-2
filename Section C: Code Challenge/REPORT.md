@@ -146,7 +146,9 @@ Geeksforgeeks.com, 2021).
 
 **Thus we need to find the maximum recursive depth.**
 
-To test this, the <code>recursionDepth</code> attribute was used to add markers to the code. Worst-case recursion depth for each possible input length appeared when all digits were non-zero - with a maximum worst case of depth six for input length 15, but would continue to grow if longer numbers were included in the method's range. The following graph illustrates the data:
+To test this, the <code>recursionDepth</code> attribute was used to add markers to the code. Worst-case recursion depth for each possible input length appeared when all digits were non-zero - with a maximum worst case of depth six for input length 15, but would continue to grow if longer numbers were included in the method's range. 
+
+The following graph illustrates the data:
 
 ![](Report-images/sayNumber()_Recursion_Depth_Graph.jpg)
 
@@ -158,7 +160,7 @@ So while <code>sayNumber</code> method itself might have a space complexity of O
 
 ### Conclusion
 
-**All evidence points toward a worst-case space complexity of O(n) for this algorithm.**<br /><br />
+**All evidence points toward a worst-case space complexity of O(n) for this algorithm.**<br /><br /><br /><br />
 
 
 
