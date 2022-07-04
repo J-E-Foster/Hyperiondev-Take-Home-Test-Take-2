@@ -11,14 +11,14 @@
 * For a Markdown report specifying and justifying the worst-case space complexity, see [this file](REPORT.md).
 * For the original problem, visit [this page](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ).<br /><br />
 
-#### Note: this is my second attempt at solving this problem. The first attempt merely adapted the three-digit-group algorithm proposed by Richard Carr, which can be found [**here**](http://www.blackwasp.co.uk/NumberToWords.aspx).
+#### Note: this is my second attempt at solving this problem. The first attempt merely adapted the three-digit-group algorithm proposed by Richard Carr, which can be found [**here**](http://www.blackwasp.co.uk/NumberToWords.aspx).<br /><br />
 
 ### Changes from the first solution:
 
 * The algorithm now makes use of a recursive instance method.
 * More tests classes were added, including a suite class and a runner class.
 * The space complexity report was adapted to include an analysis of the method's recursion depth.
-* An attempt was made to create a "standalone" app using a JAR file, albeit with limited success due to a class/module configuration issue with JUnit5, similiar to the one described [**here**].
+* An attempt was made to create a "standalone" app using a JAR file, albeit with limited success due to a class/module configuration issue with JUnit5, similiar to the one described [**here**].<br /><br />
 
 ### To run and edit this program, and run test cases:
 
@@ -32,7 +32,7 @@
 	
 * Unzip the folder in your preferred location.
 * Navigate to the **'Section C: Code Challenge'** folder, and find the **'NumberSayer'** folder.
-* Then follow [**these**](RUNME.md#how-to-run-the-program-in-eclipse) steps.
+* Then follow [**these**](RUNME.md#how-to-run-the-program-in-eclipse) steps.<br /><br />
 
 ### To merely run the main method of this program without having to install Eclipse:
 
