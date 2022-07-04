@@ -7,7 +7,7 @@ This is the central README file for this repository.<br /><br />
 Please navigate to the different sections by clicking on their respective folders in the repo,
 or by using the links provided below:<br /><br />
 
-## Note: Section C has been reattempted using my own solution to the challenge.
+### Note: Section C has been reattempted using my own solution to the challenge.
 
 * [Section A: Code Review](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test-Take-2/tree/main/Section%20A:%20Code%20Review)
 * [Section B: Projects](https://github.com/J-E-Foster/Hyperiondev-Take-Home-Test-Take-2/tree/main/Section%20B:%20Projects)
